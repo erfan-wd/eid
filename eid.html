@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مامانم دوستت دارم</title>
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+            background: linear-gradient(135deg, #f39c12, #e74c3c);
+            color: white;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .message-container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            width: 80%;
+            max-width: 600px;
+        }
+        .message-container h1 {
+            font-size: 50px;
+            margin: 0;
+            animation: fadeIn 2s ease-in-out;
+            background: -webkit-linear-gradient(#f39c12, #e74c3c);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .message-container p {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #ecf0f1;
+            opacity: 0.8;
+            animation: fadeIn 2s ease-in-out 1s;
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        .heart {
+            font-size: 100px;
+            color: #e74c3c;
+            animation: heartbeat 1.5s infinite alternate;
+        }
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="message-container">
+        <h1>مامانم دوستت دارم</h1>
+        <p>تو همیشه برای من بهترین هستی!</p>
+        <div class="heart">❤️</div>
+    </div>
+
+</body>
+</html>
